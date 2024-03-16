@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+    font-family: "Times New Roman", Georgia, Serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display", serif;
+    letter-spacing: 5px;
+  }
+  
+  /* Navbar Styles */
+  .w3-top {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+  }
+  
+  .w3-bar {
+    width: 100%;
+  }
+  
+  .w3-bar-item {
+    padding: 1rem;
+    font-weight: bold;
+  }
+  
+  .w3-bar-item:hover {
+    background-color: #f4f4f4;
+  }
+  
+  /* Header Styles */
+  .w3-display-container {
+    position: relative;
+  }
+  
+  .w3-display-bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+  
+  /* About Section Styles */
+  .w3-padding-64 {
+    padding: 4rem 0;
+  }
+  
+  /* Menu Section Styles */
+  .w3-padding-large {
+    padding: 2rem 0;
+  }
+  
+  /* Contact Section Styles */
+  .w3-container {
+    padding: 2rem 0;
+  }
+  
+  .w3-input {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .w3-button {
+    padding: 1rem 2rem;
+    cursor: pointer;
+  }
+  
+  .w3-light-grey {
+    background-color: #f4f4f4;
+  }
+  
+  /* Footer Styles */
+  .w3-margin-top {
+    margin-top: 4rem;
+  }
+  
+  .w3-center {
+    text-align: center;
+  }
+  
+  .w3-teal {
+    background-color: #008080;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  .w3-hover-opacity:hover {
+    opacity: 0.7;
+  }
+  
